@@ -8,7 +8,7 @@ def game(sign):
         print(sign_computer)
         list_win = (('rock', 'scissors'), ('scissors', 'paper'), ('paper', 'rock'))
         if sign == sign_computer:
-            return 'ничья'
+            return 'draw'
         elif (sign, sign_computer) in list_win:
             return 'You win!'
         return 'You lose'
